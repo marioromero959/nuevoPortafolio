@@ -16,18 +16,50 @@
     align-items: center;
     justify-content: space-evenly;
     padding: 35px;
-    padding-top:60px;
+    padding-bottom: 0;
 }
 h1{
-    font-size: 40px;
+    font-size: 39px;
     text-shadow: 4px 4px 5px black;
 }
+.typewriter {
+    margin: auto;
+    display: table;
+    background: transparent;
+  }
+  
+  h2 {
+    float: left;
+    position: relative;
+    background: transparent;
+  }
+  
+  span {
+    position: absolute;
+    right: 0;
+    width: 0;
+    height: 3rem;
+    border-left: 2px solid rgb(255, 255, 255);
+    background: #220c79;
+    animation: maquina 3s infinite alternate steps(25);
+  }
+  
+  @keyframes maquina {
+    from {
+      width: 100%;
+    }
+    to {
+      width: 0;
+    }
+  }
+  
 h2{
-    text-shadow: 4px 4px 5px black;
     font-size: 2.3rem;
 }
 img{
-    width: 400px;
+    width: 18em;
+    padding-bottom: 5px;
+    border-bottom: 2px solid white;
 }
 app-tech{
     max-width: 90%;
@@ -37,11 +69,18 @@ app-tech{
     .home{
         justify-content: center;
         flex-direction: column;
+        justify-content: space-evenly;
     }
     img{
         width: 70%;
     }
     .presentacion{
         display:contents;
+    }
+    h2{
+        font-size: 1.3rem;
+    }
+    span{
+        height: 1.6rem;
     }
 }

@@ -43,7 +43,19 @@ img{
         height: 100%;
     }
     .card{
-        width: 80%;
+        width: 60%;
+    }
+    .proyectos{
+        padding:0;
+        flex-wrap: wrap;
+    }
+}
+@media(max-width:480px){
+    .container{
+        height: 100%;
+    }
+    .card{
+        width: 90%;
     }
     .proyectos{
         padding:0;

@@ -16,7 +16,7 @@ export class ProyectsComponent implements OnInit {
     },
     {
       titulo:'Centro de Psicología',
-      descripcion:'Desarrollo Freelancer con WordPress para profesionales Licenciados de Psicologia.',
+      descripcion:'Desarrollo Freelancer con WordPress para profesionales Licenciados en Psicologia.',
       img:'./../../../../assets/centroPEyC.png',
       url:'https://centropeyc.com.ar/'
     },
