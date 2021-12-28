@@ -1,0 +1,13 @@
+<div class="container">
+  <h1 data-aos="fade-up">Proyectos</h1>
+  <div class="proyectos" data-aos="fade-up">
+    <div *ngFor="let proyecto of proyectos" class="card">
+      <img class="card-img-top" [src]=proyecto.img alt="">
+      <div class="card-body">
+        <h4 class="card-title">{{proyecto.titulo}}</h4>
+        <p class="card-text">{{proyecto.descripcion}}</p>
+        <a target="_blank" href={{proyecto.url}} class="btn btn-outline-info">Ver mas</a>
+      </div>
+    </div>
+  </div>
+</div>
