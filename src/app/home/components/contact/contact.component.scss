@@ -24,6 +24,10 @@ p:nth-child(1){
 }
 @media(max-width:780px){
     .form-group{
+        width: 85%;
         margin-bottom: 10px;
+    }
+    h1{
+        padding-top:0;
     }
 }

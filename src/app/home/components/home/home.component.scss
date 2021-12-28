@@ -20,6 +20,7 @@
 }
 h1{
     font-size: 39px;
+    margin:10px;
     text-shadow: 4px 4px 5px black;
 }
 .typewriter {
@@ -67,12 +68,12 @@ app-tech{
 }
 @media(max-width:480px){
     .home{
-        justify-content: center;
         flex-direction: column;
         justify-content: space-evenly;
+        padding:0;
     }
     img{
-        width: 70%;
+        width: 75%;
     }
     .presentacion{
         display:contents;
