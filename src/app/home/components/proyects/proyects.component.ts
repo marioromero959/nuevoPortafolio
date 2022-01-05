@@ -24,7 +24,7 @@ export class ProyectsComponent implements OnInit {
       titulo:'E-commerce Velka',
       descripcion:'Tienda online desarrollada para venta de productos de moda de la marca Velka.',
       img:'./../../../../assets/velka.png',
-      url:'https://github.com/marioromero959/velka-oficial'
+      url:'https://velka-accesorios.web.app/home'
     },
 
   ]

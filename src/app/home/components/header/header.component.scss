@@ -1,0 +1,8 @@
+a{
+    flex: 1 1 auto;
+}
+@media(max-width:480px){
+    .navbar-nav a{
+        text-align:center;
+    }   
+}
